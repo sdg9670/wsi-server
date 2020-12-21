@@ -1,0 +1,47 @@
+{
+  "path": {
+    "files": "files/",
+    "web": "web/"
+  },
+  "crypto": {
+    "key": ""
+  },
+  "authEmail": {
+    "user": "",
+    "password": ""
+  },
+  "db": {
+    "postgres": {
+      "host": "",
+      "port": 5432,
+      "user": "",
+      "password": "",
+      "database": "",
+      "pool": {
+        "max": 3,
+        "min": 0,
+        "acquire": 30000,
+        "idle": 10000
+      }
+    },
+    "mongo": {
+      "uri": {
+        "host": "",
+        "port": 27017,
+        "database": ""
+      },
+      "options": {
+        "user": "",
+        "pass": "",
+        "useNewUrlParser": true,
+        "useUnifiedTopology": true
+      }
+    }
+  },
+  "express": {
+    "port": 80
+  },
+  "url": {
+    "web": ""
+  }
+}
